@@ -1,0 +1,158 @@
+{
+  "generated_at": "2025-12-08T19:29:18.033687Z",
+  "total_indicators": 1539,
+  "total_feeds": 2,
+  "confidence": {
+    "average": 70.38,
+    "min": 65,
+    "max": 95
+  },
+  "top_targeted_ports": [
+    {
+      "port": 443,
+      "count": 1362
+    },
+    {
+      "port": 22,
+      "count": 165
+    },
+    {
+      "port": 5900,
+      "count": 154
+    },
+    {
+      "port": 23,
+      "count": 72
+    },
+    {
+      "port": 7788,
+      "count": 69
+    },
+    {
+      "port": 8080,
+      "count": 56
+    },
+    {
+      "port": 445,
+      "count": 46
+    },
+    {
+      "port": 8443,
+      "count": 27
+    },
+    {
+      "port": 5555,
+      "count": 22
+    },
+    {
+      "port": 80,
+      "count": 21
+    }
+  ],
+  "top_countries": [
+    {
+      "country": "BR",
+      "count": 1207
+    },
+    {
+      "country": "US",
+      "count": 148
+    },
+    {
+      "country": "CN",
+      "count": 77
+    },
+    {
+      "country": "HK",
+      "count": 20
+    },
+    {
+      "country": "SG",
+      "count": 7
+    },
+    {
+      "country": "JP",
+      "count": 7
+    },
+    {
+      "country": "CA",
+      "count": 6
+    },
+    {
+      "country": "KR",
+      "count": 6
+    },
+    {
+      "country": "FR",
+      "count": 5
+    },
+    {
+      "country": "IN",
+      "count": 5
+    }
+  ],
+  "top_asns": [
+    {
+      "asn": "R F de Souza Junior",
+      "count": 1023
+    },
+    {
+      "asn": "TCF Telecomunicacoes Campo Florido Ltda",
+      "count": 171
+    },
+    {
+      "asn": "MICROSOFT-CORP-MSN-AS-BLOCK",
+      "count": 40
+    },
+    {
+      "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "count": 32
+    },
+    {
+      "asn": "AMAZON-02",
+      "count": 31
+    },
+    {
+      "asn": "GOOGLE",
+      "count": 18
+    },
+    {
+      "asn": "Alibaba US Technology Co., Ltd.",
+      "count": 18
+    },
+    {
+      "asn": "AMAZON-AES",
+      "count": 16
+    },
+    {
+      "asn": "Tencent Building, Kejizhongyi Avenue",
+      "count": 15
+    },
+    {
+      "asn": "DIGITALOCEAN-ASN",
+      "count": 13
+    }
+  ],
+  "top_activity_types": [
+    {
+      "label": "https-scanning",
+      "count": 1362
+    },
+    {
+      "label": "ssh-brute-force",
+      "count": 165
+    },
+    {
+      "label": "vnc-scanning",
+      "count": 154
+    },
+    {
+      "label": "adb-exploitation",
+      "count": 22
+    },
+    {
+      "label": "reconnaissance",
+      "count": 5
+    }
+  ]
+}
