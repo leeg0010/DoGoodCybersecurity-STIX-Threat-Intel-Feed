@@ -96,8 +96,7 @@ class STIXFeedGenerator:
         # Initialize Elasticsearch client
         es_config = {
             'hosts': [{'host': es_host, 'port': es_port, 'scheme': 'http'}],
-            'request_timeout': 30,
-            'headers': {'accept': 'application/json', 'content-type': 'application/json'}
+            'request_timeout': 30
         }
         
         if es_user and es_password:
