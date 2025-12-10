@@ -1,94 +1,94 @@
 {
-  "generated_at": "2025-12-09T10:00:05.500836Z",
-  "total_indicators": 1539,
-  "total_feeds": 4,
+  "generated_at": "2025-12-10T10:20:00.991856Z",
+  "total_indicators": 5046,
+  "total_feeds": 5,
   "confidence": {
-    "average": 70.38,
-    "min": 65,
+    "average": 71.96,
+    "min": 60,
     "max": 95
   },
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 1362
+      "count": 3057
     },
     {
       "port": 22,
-      "count": 165
+      "count": 372
     },
     {
       "port": 5900,
-      "count": 154
+      "count": 332
     },
     {
-      "port": 23,
-      "count": 72
+      "port": 9200,
+      "count": 163
     },
     {
       "port": 7788,
-      "count": 69
+      "count": 146
+    },
+    {
+      "port": 23,
+      "count": 133
     },
     {
       "port": 8080,
-      "count": 56
+      "count": 96
     },
     {
       "port": 445,
-      "count": 46
+      "count": 96
     },
     {
-      "port": 8443,
-      "count": 27
-    },
-    {
-      "port": 5555,
-      "count": 22
+      "port": 5601,
+      "count": 92
     },
     {
       "port": 80,
-      "count": 21
+      "count": 75
     }
   ],
   "top_countries": [
     {
       "country": "BR",
-      "count": 1207
+      "count": 2539
     },
     {
       "country": "US",
-      "count": 148
+      "count": 1629
     },
     {
       "country": "CN",
-      "count": 77
+      "count": 188
+    },
+    {
+      "country": "NL",
+      "count": 110
+    },
+    {
+      "country": "GB",
+      "count": 72
     },
     {
       "country": "HK",
-      "count": 20
+      "count": 46
     },
     {
-      "country": "SG",
-      "count": 7
-    },
-    {
-      "country": "JP",
-      "count": 7
-    },
-    {
-      "country": "CA",
-      "count": 6
+      "country": "DE",
+      "count": 27
     },
     {
       "country": "KR",
-      "count": 6
+      "count": 26
     },
     {
-      "country": "FR",
-      "count": 5
+      "country": "RU",
+      "count": 26
     },
     {
       "country": "IN",
-      "count": 5
+      "count": 26
     }
   ],
   "top_asns": [
@@ -97,62 +97,66 @@
       "count": 1023
     },
     {
+      "asn": "OXMAN TECNOLOGIA LTDA",
+      "count": 1021
+    },
+    {
+      "asn": "MICROSOFT-CORP-MSN-AS-BLOCK",
+      "count": 391
+    },
+    {
+      "asn": "AMAZON-02",
+      "count": 342
+    },
+    {
       "asn": "TCF Telecomunicacoes Campo Florido Ltda",
       "count": 171
     },
     {
-      "asn": "MICROSOFT-CORP-MSN-AS-BLOCK",
-      "count": 40
+      "asn": "Akamai International B.V.",
+      "count": 164
     },
     {
-      "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "count": 32
+      "asn": "GOOGLE-CLOUD-PLATFORM",
+      "count": 161
     },
     {
-      "asn": "AMAZON-02",
-      "count": 31
+      "asn": "SBCNET LTDA",
+      "count": 159
     },
     {
-      "asn": "GOOGLE",
-      "count": 18
-    },
-    {
-      "asn": "Alibaba US Technology Co., Ltd.",
-      "count": 18
+      "asn": "CLOUDFLARENET",
+      "count": 94
     },
     {
       "asn": "AMAZON-AES",
-      "count": 16
-    },
-    {
-      "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 15
-    },
-    {
-      "asn": "DIGITALOCEAN-ASN",
-      "count": 13
+      "count": 94
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 1362
-    },
-    {
-      "label": "ssh-brute-force",
-      "count": 165
-    },
-    {
-      "label": "vnc-scanning",
-      "count": 154
-    },
-    {
-      "label": "adb-exploitation",
-      "count": 22
+      "count": 3057
     },
     {
       "label": "reconnaissance",
-      "count": 5
+      "count": 1463
+    },
+    {
+      "label": "ssh-brute-force",
+      "count": 372
+    },
+    {
+      "label": "vnc-scanning",
+      "count": 332
+    },
+    {
+      "label": "adb-exploitation",
+      "count": 34
+    },
+    {
+      "label": "database-scanning",
+      "count": 19
     }
   ]
 }
