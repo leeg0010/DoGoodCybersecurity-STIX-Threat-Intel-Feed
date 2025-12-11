@@ -1,24 +1,24 @@
 {
-  "generated_at": "2025-12-10T10:20:10.200825Z",
-  "total_indicators": 5046,
-  "total_feeds": 5,
+  "generated_at": "2025-12-11T10:00:04.819207Z",
+  "total_indicators": 5203,
+  "total_feeds": 6,
   "confidence": {
-    "average": 71.96,
+    "average": 71.77,
     "min": 60,
     "max": 95
   },
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 3057
+      "count": 3130
     },
     {
       "port": 22,
-      "count": 372
+      "count": 375
     },
     {
       "port": 5900,
-      "count": 332
+      "count": 352
     },
     {
       "port": 9200,
@@ -46,109 +46,109 @@
     },
     {
       "port": 80,
-      "count": 75
+      "count": 78
     }
   ],
   "top_countries": [
     {
       "country": "BR",
-      "count": 2539
+      "count": 2611
     },
     {
       "country": "US",
-      "count": 1629
+      "count": 1681
     },
     {
       "country": "CN",
-      "count": 188
+      "count": 197
     },
     {
       "country": "NL",
-      "count": 110
+      "count": 120
     },
     {
       "country": "GB",
-      "count": 72
+      "count": 73
     },
     {
       "country": "HK",
-      "count": 46
+      "count": 48
     },
     {
       "country": "DE",
+      "count": 29
+    },
+    {
+      "country": "BG",
+      "count": 28
+    },
+    {
+      "country": "IN",
       "count": 27
     },
     {
       "country": "KR",
       "count": 26
-    },
-    {
-      "country": "RU",
-      "count": 26
-    },
-    {
-      "country": "IN",
-      "count": 26
     }
   ],
   "top_asns": [
+    {
+      "asn": "OXMAN TECNOLOGIA LTDA",
+      "count": 1092
+    },
     {
       "asn": "R F de Souza Junior",
       "count": 1023
     },
     {
-      "asn": "OXMAN TECNOLOGIA LTDA",
-      "count": 1021
-    },
-    {
       "asn": "MICROSOFT-CORP-MSN-AS-BLOCK",
-      "count": 391
+      "count": 399
     },
     {
       "asn": "AMAZON-02",
-      "count": 342
+      "count": 343
+    },
+    {
+      "asn": "Akamai International B.V.",
+      "count": 181
     },
     {
       "asn": "TCF Telecomunicacoes Campo Florido Ltda",
       "count": 171
     },
     {
-      "asn": "Akamai International B.V.",
-      "count": 164
-    },
-    {
       "asn": "GOOGLE-CLOUD-PLATFORM",
-      "count": 161
+      "count": 162
     },
     {
       "asn": "SBCNET LTDA",
       "count": 159
     },
     {
-      "asn": "CLOUDFLARENET",
-      "count": 94
+      "asn": "GOOGLE",
+      "count": 103
     },
     {
-      "asn": "AMAZON-AES",
-      "count": 94
+      "asn": "CLOUDFLARENET",
+      "count": 96
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 3057
+      "count": 3130
     },
     {
       "label": "reconnaissance",
-      "count": 1463
+      "count": 1524
     },
     {
       "label": "ssh-brute-force",
-      "count": 372
+      "count": 375
     },
     {
       "label": "vnc-scanning",
-      "count": 332
+      "count": 352
     },
     {
       "label": "adb-exploitation",
