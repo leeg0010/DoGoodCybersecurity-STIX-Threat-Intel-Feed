@@ -188,7 +188,7 @@ We welcome community contributions:
 - **Repository**: https://github.com/leeg0010/DoGoodCybersecurity-STIX-Threat-Intel-Feed
 - **Issues**: https://github.com/leeg0010/DoGoodCybersecurity-STIX-Threat-Intel-Feed/issues
 - **Security**: See [SECURITY.md](.github/SECURITY.md) for vulnerability reporting
-- **Researcher**: DoGoodCybersecurity - lee@dogoodcybersecurity.com
+- **Researcher**: LeeG0010
 
 ## License
 
