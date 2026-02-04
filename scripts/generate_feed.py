@@ -214,30 +214,25 @@ class STIXFeedGenerator:
         Returns:
             List of indicator dictionaries with metadata
         """
-        index_name = f"honeypot-normalized-{date.strftime('%Y.%m.%d')}"
+        # Query tpot-* indices (new tool-specific index pattern)
+        # Excludes tpot-suricata to avoid duplicate IDS alerts
+        index_name = f"tpot-cowrie-{date.strftime('%Y.%m.%d')},tpot-heralding-{date.strftime('%Y.%m.%d')},tpot-galah-{date.strftime('%Y.%m.%d')},tpot-dionaea-{date.strftime('%Y.%m.%d')},tpot-adbhoney-{date.strftime('%Y.%m.%d')}"
         
         query = {
             "size": 0,
             "query": {
                 "bool": {
                     "must": [
-                        {"term": {"edge.matched": True}}
-                    ],
-                    "should": [
-                        {"exists": {"field": "edge.source.ip"}},
                         {"exists": {"field": "source.ip"}}
                     ],
-                    "minimum_should_match": 1,
                     "must_not": [
                         # Exclude private IP ranges
-                        {"prefix": {"edge.source.ip": "10."}},
-                        {"prefix": {"edge.source.ip": "172.16."}},
-                        {"prefix": {"edge.source.ip": "192.168."}},
                         {"prefix": {"source.ip": "10."}},
                         {"prefix": {"source.ip": "172.16."}},
                         {"prefix": {"source.ip": "192.168."}},
-                        # Exclude owner's static IP
-                        {"term": {"source.ip.keyword": "98.163.174.142"}}
+                        # Exclude owner's public IPs
+                        {"term": {"source.ip.keyword": "98.163.174.142"}},
+                        {"term": {"source.ip.keyword": "98.163.142.186"}}
                     ]
                 }
             },
@@ -264,9 +259,6 @@ class STIXFeedGenerator:
                         },
                         "country": {
                             "terms": {"field": "source.geo.country_iso_code.keyword", "size": 1}
-                        },
-                        "correlated_events": {
-                            "filter": {"exists": {"field": "edge.source.ip"}}
                         }
                     }
                 }
@@ -276,7 +268,7 @@ class STIXFeedGenerator:
         try:
             response = self.es_client.search(index=index_name, body=query)
         except NotFoundError:
-            logger.warning(f"Index {index_name} not found")
+            logger.warning(f"Index pattern {index_name} not found")
             return []
         except RequestError as e:
             logger.error(f"Elasticsearch query error: {e}")
@@ -292,9 +284,9 @@ class STIXFeedGenerator:
             if event_count < self.min_events:
                 continue
             
-            # Calculate correlation rate
-            correlated_count = bucket['correlated_events']['doc_count']
-            correlation_rate = correlated_count / event_count if event_count > 0 else 0
+            # For tpot indices, all events are from real IPs (no edge correlation needed)
+            correlation_rate = 1.0
+            correlated_count = event_count
             
             # Extract metadata
             first_seen = bucket['first_seen']['value_as_string']

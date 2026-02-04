@@ -1,0 +1,914 @@
+{
+    "type": "bundle",
+    "id": "bundle--cfe84ef5-eb93-4ce0-9866-0ee78cb304ae",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-01-01T00:00:00.000Z",
+            "modified": "2025-12-23T10:00:01.000Z",
+            "name": "Distributed Honeypot Network",
+            "identity_class": "system",
+            "contact_information": "https://github.com/leeg0010/DoGoodCybersecurity-STIX-Threat-Intel-Feed"
+        },
+        {
+            "type": "marking-definition",
+            "spec_version": "2.1",
+            "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+            "created": "2017-01-20T00:00:00.000Z",
+            "definition_type": "tlp",
+            "name": "TLP:WHITE",
+            "definition": {
+                "tlp": "white"
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--aa52d2b3-4377-40ce-b537-4c97bebb534d",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.685685Z",
+            "modified": "2025-12-23T10:00:01.685685Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.2 hours with 608 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '137.184.121.249']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:10.496Z",
+            "valid_until": "2025-12-29T00:46:15Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 608,
+                "first_seen": "2025-12-22T00:37:10.496Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:15.342Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--aa4c05f3-9e32-405d-958e-e9a9f6e4befa",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.689829Z",
+            "modified": "2025-12-23T10:00:01.689829Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.2 hours with 581 events. Targeted ports: 5900, 7788.",
+            "pattern": "[ipv4-addr:value = '146.190.253.5']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:10.041Z",
+            "valid_until": "2025-12-29T00:46:26Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 77,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 581,
+                "first_seen": "2025-12-22T00:37:10.041Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:26.748Z",
+                "targeted_ports": [
+                    5900,
+                    7788
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--541b6d8a-58e0-4ead-a24d-0d179992eee2",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.690502Z",
+            "modified": "2025-12-23T10:00:01.690502Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.2 hours with 565 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '165.227.43.202']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:09.561Z",
+            "valid_until": "2025-12-29T00:46:26Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 565,
+                "first_seen": "2025-12-22T00:37:09.561Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:26.058Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--42a28ec5-4a3e-420f-ac24-528a54b4b428",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.691027Z",
+            "modified": "2025-12-23T10:00:01.691027Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.2 hours with 528 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '134.199.197.86']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:16Z",
+            "valid_until": "2025-12-29T00:46:24Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 528,
+                "first_seen": "2025-12-22T00:37:16.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:24.075Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5a4dc1e7-7223-4a5b-8568-defce5c5b881",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.691552Z",
+            "modified": "2025-12-23T10:00:01.691552Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.1 hours with 468 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '159.89.234.197']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:09.644Z",
+            "valid_until": "2025-12-29T00:46:02Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 468,
+                "first_seen": "2025-12-22T00:37:09.644Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:02.715Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fa0ab6ea-7fe9-41e9-bd1f-a9095517ce9c",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.69205Z",
+            "modified": "2025-12-23T10:00:01.69205Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.2 hours with 463 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '159.89.228.57']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:18Z",
+            "valid_until": "2025-12-29T00:46:20Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 463,
+                "first_seen": "2025-12-22T00:37:18.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:20.188Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f29b8a77-d07a-45ce-b7d7-b62fa8a25f83",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.692546Z",
+            "modified": "2025-12-23T10:00:01.692546Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.2 hours with 456 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '209.38.142.54']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:09.498Z",
+            "valid_until": "2025-12-29T00:46:18Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 456,
+                "first_seen": "2025-12-22T00:37:09.498Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:18.172Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3bbbca51-fff0-4dc5-be0c-08d1621fd6b7",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.693582Z",
+            "modified": "2025-12-23T10:00:01.693582Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.2 hours with 449 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '138.197.148.209']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:17Z",
+            "valid_until": "2025-12-29T00:46:23Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 449,
+                "first_seen": "2025-12-22T00:37:17.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:23.206Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6a128311-a971-4832-8c50-2be6b9af236d",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.694111Z",
+            "modified": "2025-12-23T10:00:01.694111Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.2 hours with 445 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '142.93.150.104']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:11Z",
+            "valid_until": "2025-12-29T00:46:25Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 445,
+                "first_seen": "2025-12-22T00:37:11.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:25.940Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--18d05672-975c-47cc-b937-01c6fb9d2500",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.694589Z",
+            "modified": "2025-12-23T10:00:01.694589Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.1 hours with 200 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '64.23.241.193']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:28Z",
+            "valid_until": "2025-12-29T00:46:26Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 200,
+                "first_seen": "2025-12-22T00:37:28.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:26.183Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--998ee614-de46-42c0-84f2-c69e82d6a1f4",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.695103Z",
+            "modified": "2025-12-23T10:00:01.695103Z",
+            "name": "Malicious IP - VNC Scanning",
+            "description": "IP observed conducting vnc scanning against honeypot infrastructure. Activity recorded over 0.2 hours with 118 events. Targeted ports: 5900.",
+            "pattern": "[ipv4-addr:value = '143.198.60.26']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:16Z",
+            "valid_until": "2025-12-29T00:46:22Z",
+            "labels": [
+                "vnc-scanning"
+            ],
+            "confidence": 75,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.15,
+                "event_count": 118,
+                "first_seen": "2025-12-22T00:37:16.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:46:22.604Z",
+                "targeted_ports": [
+                    5900
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b6a0e26d-077a-4047-93e1-caba3b092996",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.695565Z",
+            "modified": "2025-12-23T10:00:01.695565Z",
+            "name": "Malicious IP - malicious-activity",
+            "description": "IP observed conducting malicious-activity against honeypot infrastructure. Activity recorded over 0.0 hours with 16 events. Targeted ports: 1080.",
+            "pattern": "[ipv4-addr:value = '167.94.138.115']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:45:29Z",
+            "valid_until": "2025-12-29T00:45:30Z",
+            "labels": [
+                "reconnaissance"
+            ],
+            "confidence": 65,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.0,
+                "event_count": 16,
+                "first_seen": "2025-12-22T00:45:29.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "heralding"
+                ],
+                "last_seen": "2025-12-22T00:45:30.748Z",
+                "targeted_ports": [
+                    1080
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--297f34a6-eb9f-4d6f-a1cf-e7742797da1e",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.696042Z",
+            "modified": "2025-12-23T10:00:01.696042Z",
+            "name": "Malicious IP - malicious-activity",
+            "description": "IP observed conducting malicious-activity against honeypot infrastructure. Activity recorded over 0.0 hours with 12 events. Targeted ports: 80.",
+            "pattern": "[ipv4-addr:value = '157.245.209.233']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:40:18Z",
+            "valid_until": "2025-12-29T00:40:51Z",
+            "labels": [
+                "reconnaissance"
+            ],
+            "confidence": 65,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.01,
+                "event_count": 12,
+                "first_seen": "2025-12-22T00:40:18.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "fatt",
+                    "h0neytr4p"
+                ],
+                "last_seen": "2025-12-22T00:40:51.819Z",
+                "targeted_ports": [
+                    80
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--56a54dab-fa83-4685-a180-e6ff5e793b50",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.696507Z",
+            "modified": "2025-12-23T10:00:01.696507Z",
+            "name": "Malicious IP - malicious-activity",
+            "description": "IP observed conducting malicious-activity against honeypot infrastructure. Activity recorded over 0.0 hours with 9 events. Targeted ports: 80.",
+            "pattern": "[ipv4-addr:value = '64.62.197.147']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:42:32Z",
+            "valid_until": "2025-12-29T00:44:14Z",
+            "labels": [
+                "reconnaissance"
+            ],
+            "confidence": 60,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.03,
+                "event_count": 9,
+                "first_seen": "2025-12-22T00:42:32.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata",
+                    "fatt"
+                ],
+                "last_seen": "2025-12-22T00:44:14.728Z",
+                "targeted_ports": [
+                    80
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3427f72c-f21d-4c49-8998-6bf1f560a109",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.696979Z",
+            "modified": "2025-12-23T10:00:01.696979Z",
+            "name": "Malicious IP - malicious-activity",
+            "description": "IP observed conducting malicious-activity against honeypot infrastructure. Activity recorded over 0.1 hours with 8 events. Targeted ports: .",
+            "pattern": "[ipv4-addr:value = '172.80.160.1']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:38:01Z",
+            "valid_until": "2025-12-29T00:46:01Z",
+            "labels": [
+                "reconnaissance"
+            ],
+            "confidence": 60,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.13,
+                "event_count": 8,
+                "first_seen": "2025-12-22T00:38:01.000Z",
+                "honeypot_tools": [
+                    "h0neytr4p"
+                ],
+                "last_seen": "2025-12-22T00:46:01.000Z",
+                "targeted_ports": []
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--df3d0762-2c2b-4145-b562-e59457c75bd4",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.697441Z",
+            "modified": "2025-12-23T10:00:01.697441Z",
+            "name": "Malicious IP - malicious-activity",
+            "description": "IP observed conducting malicious-activity against honeypot infrastructure. Activity recorded over 0.0 hours with 8 events. Targeted ports: 1080, 7788.",
+            "pattern": "[ipv4-addr:value = '66.132.153.149']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:45:21Z",
+            "valid_until": "2025-12-29T00:45:57Z",
+            "labels": [
+                "reconnaissance"
+            ],
+            "confidence": 62,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.01,
+                "event_count": 8,
+                "first_seen": "2025-12-22T00:45:21.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata"
+                ],
+                "last_seen": "2025-12-22T00:45:57.247Z",
+                "targeted_ports": [
+                    1080,
+                    7788
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--883b9065-7125-47fa-b227-934f3c203ebd",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.706804Z",
+            "modified": "2025-12-23T10:00:01.706804Z",
+            "name": "Malicious IP - malicious-activity",
+            "description": "IP observed conducting malicious-activity against honeypot infrastructure. Activity recorded over 0.0 hours with 7 events. Targeted ports: 29428.",
+            "pattern": "[ipv4-addr:value = '172.80.16.2']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:37:09.755Z",
+            "valid_until": "2025-12-29T00:39:11Z",
+            "labels": [
+                "reconnaissance"
+            ],
+            "confidence": 60,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.03,
+                "event_count": 7,
+                "first_seen": "2025-12-22T00:37:09.755Z",
+                "honeypot_tools": [
+                    "suricata"
+                ],
+                "last_seen": "2025-12-22T00:39:11.963Z",
+                "targeted_ports": [
+                    29428
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c34d9c5e-dde8-47cb-9f83-b213c412b225",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.707396Z",
+            "modified": "2025-12-23T10:00:01.707396Z",
+            "name": "Malicious IP - malicious-activity",
+            "description": "IP observed conducting malicious-activity against honeypot infrastructure. Activity recorded over 0.0 hours with 5 events. Targeted ports: 9200.",
+            "pattern": "[ipv4-addr:value = '54.86.80.178']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:44:46Z",
+            "valid_until": "2025-12-29T00:45:54Z",
+            "labels": [
+                "reconnaissance"
+            ],
+            "confidence": 60,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.02,
+                "event_count": 5,
+                "first_seen": "2025-12-22T00:44:46.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata"
+                ],
+                "last_seen": "2025-12-22T00:45:54.356Z",
+                "targeted_ports": [
+                    9200
+                ]
+            }
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--183a287d-daf5-42e0-ae41-2d2ff7d0ffe6",
+            "created_by_ref": "identity--550e8400-e29b-41d4-a716-446655440000",
+            "created": "2025-12-23T10:00:01.707926Z",
+            "modified": "2025-12-23T10:00:01.707926Z",
+            "name": "Malicious IP - HTTPS Scanning",
+            "description": "IP observed conducting https scanning against honeypot infrastructure. Activity recorded over 0.0 hours with 5 events. Targeted ports: 443.",
+            "pattern": "[ipv4-addr:value = '95.214.55.77']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2025-12-22T00:40:49Z",
+            "valid_until": "2025-12-29T00:42:28Z",
+            "labels": [
+                "https-scanning"
+            ],
+            "confidence": 60,
+            "external_references": [
+                {
+                    "source_name": "honeypot-network",
+                    "description": "Observed in distributed honeypot network on 2025-12-22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+            ],
+            "x_honeypot_metadata": {
+                "asn": null,
+                "asn_name": null,
+                "correlated_events": 0,
+                "correlation_rate": 0.0,
+                "country": null,
+                "duration_hours": 0.03,
+                "event_count": 5,
+                "first_seen": "2025-12-22T00:40:49.000Z",
+                "honeypot_tools": [
+                    "p0f",
+                    "suricata"
+                ],
+                "last_seen": "2025-12-22T00:42:28.168Z",
+                "targeted_ports": [
+                    443
+                ]
+            }
+        }
+    ]
+}

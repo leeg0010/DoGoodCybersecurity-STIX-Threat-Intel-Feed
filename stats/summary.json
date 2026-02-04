@@ -1,162 +1,162 @@
 {
-  "generated_at": "2025-12-20T10:03:39.814018Z",
-  "total_indicators": 16984,
-  "total_feeds": 15,
+  "generated_at": "2026-02-04T10:00:01.888816Z",
+  "total_indicators": 19478,
+  "total_feeds": 61,
   "confidence": {
-    "average": 73.4,
+    "average": 73.45,
     "min": 60,
     "max": 95
   },
   "top_targeted_ports": [
     {
       "port": 5900,
-      "count": 10436
+      "count": 12634
     },
     {
       "port": 443,
-      "count": 5328
+      "count": 5529
     },
     {
       "port": 1433,
-      "count": 4882
+      "count": 4951
     },
     {
       "port": 445,
-      "count": 2120
+      "count": 2455
     },
     {
       "port": 80,
-      "count": 1306
+      "count": 1517
     },
     {
       "port": 3306,
-      "count": 570
-    },
-    {
-      "port": 22,
-      "count": 544
+      "count": 656
     },
     {
       "port": 9200,
-      "count": 522
+      "count": 629
+    },
+    {
+      "port": 22,
+      "count": 589
     },
     {
       "port": 5555,
-      "count": 348
+      "count": 404
     },
     {
       "port": 5432,
-      "count": 306
+      "count": 367
     }
   ],
   "top_countries": [
     {
       "country": "US",
-      "count": 8551
+      "count": 10092
     },
     {
       "country": "BR",
-      "count": 3000
+      "count": 3010
     },
     {
       "country": "GB",
-      "count": 1053
+      "count": 1311
     },
     {
       "country": "NL",
-      "count": 682
+      "count": 790
     },
     {
       "country": "CN",
-      "count": 472
+      "count": 535
     },
     {
       "country": "DE",
-      "count": 417
+      "count": 473
     },
     {
       "country": "BG",
-      "count": 278
+      "count": 332
     },
     {
       "country": "HK",
-      "count": 273
+      "count": 312
     },
     {
       "country": "RU",
-      "count": 173
+      "count": 203
     },
     {
       "country": "FR",
-      "count": 163
+      "count": 193
     }
   ],
   "top_asns": [
     {
       "asn": "GOOGLE-CLOUD-PLATFORM",
-      "count": 2991
+      "count": 3718
     },
     {
       "asn": "MICROSOFT-CORP-MSN-AS-BLOCK",
-      "count": 1424
+      "count": 1629
     },
     {
       "asn": "OXMAN TECNOLOGIA LTDA",
       "count": 1092
     },
     {
+      "asn": "CENSYS-ARIN-01",
+      "count": 1042
+    },
+    {
+      "asn": "HURRICANE",
+      "count": 1027
+    },
+    {
       "asn": "R F de Souza Junior",
       "count": 1023
     },
     {
-      "asn": "CENSYS-ARIN-01",
-      "count": 889
-    },
-    {
-      "asn": "HURRICANE",
-      "count": 838
-    },
-    {
       "asn": "UCLOUD INFORMATION TECHNOLOGY HK LIMITED",
-      "count": 638
+      "count": 739
     },
     {
       "asn": "AMAZON-02",
-      "count": 507
+      "count": 550
     },
     {
       "asn": "DIGITALOCEAN-ASN",
-      "count": 428
+      "count": 492
     },
     {
       "asn": "AMAZON-AES",
-      "count": 371
+      "count": 426
     }
   ],
   "top_activity_types": [
     {
       "label": "vnc-scanning",
-      "count": 10436
+      "count": 12634
     },
     {
       "label": "https-scanning",
-      "count": 5328
+      "count": 5529
     },
     {
       "label": "database-scanning",
-      "count": 5288
+      "count": 5484
     },
     {
       "label": "reconnaissance",
-      "count": 2261
+      "count": 2474
     },
     {
       "label": "ssh-brute-force",
-      "count": 544
+      "count": 589
     },
     {
       "label": "adb-exploitation",
-      "count": 348
+      "count": 404
     }
   ]
 }
