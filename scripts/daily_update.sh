@@ -25,8 +25,8 @@ python3 scripts/generate_feed.py \
     --output ${OUTPUT_FILE} \
     --es-host 192.168.1.100 \
     --es-port 9200 \
-    --min-events 5 \
-    --confidence 50
+    --min-events 25 \
+    --confidence 70
 
 if [ $? -eq 0 ]; then
     echo "[$(date -u)] Successfully generated ${OUTPUT_FILE}"

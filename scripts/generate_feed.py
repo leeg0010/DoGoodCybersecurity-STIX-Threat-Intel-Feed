@@ -215,8 +215,10 @@ class STIXFeedGenerator:
             List of indicator dictionaries with metadata
         """
         # Query tpot-* indices (new tool-specific index pattern)
-        # Excludes tpot-suricata to avoid duplicate IDS alerts
-        index_name = f"tpot-cowrie-{date.strftime('%Y.%m.%d')},tpot-heralding-{date.strftime('%Y.%m.%d')},tpot-galah-{date.strftime('%Y.%m.%d')},tpot-dionaea-{date.strftime('%Y.%m.%d')},tpot-adbhoney-{date.strftime('%Y.%m.%d')}"
+        # Use wildcard to catch all tools, exclude suricata (IDS alerts not primary honeypot data)
+        date_str = date.strftime('%Y.%m.%d')
+        index_pattern = f"tpot-*-{date_str}"
+        exclude_pattern = f"tpot-suricata-{date_str}"
         
         query = {
             "size": 0,
@@ -266,9 +268,9 @@ class STIXFeedGenerator:
         }
         
         try:
-            response = self.es_client.search(index=index_name, body=query)
+            response = self.es_client.search(index=index_pattern, body=query, ignore_unavailable=True)
         except NotFoundError:
-            logger.warning(f"Index pattern {index_name} not found")
+            logger.warning(f"Index pattern {index_pattern} not found")
             return []
         except RequestError as e:
             logger.error(f"Elasticsearch query error: {e}")
@@ -333,7 +335,7 @@ class STIXFeedGenerator:
                 'confidence': confidence
             })
         
-        logger.info(f"Extracted {len(indicators)} indicators from {index_name} (filtered from {response['aggregations']['malicious_ips']['buckets'].__len__()} total IPs)")
+        logger.info(f"Extracted {len(indicators)} indicators from {index_pattern} (filtered from {len(response['aggregations']['malicious_ips']['buckets'])} total IPs)")
         
         return indicators
     
