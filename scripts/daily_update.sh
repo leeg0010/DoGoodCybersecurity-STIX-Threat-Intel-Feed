@@ -47,14 +47,16 @@ python3 scripts/generate_stats.py
 # Git operations
 echo "[$(date -u)] Committing and pushing to GitHub..."
 
+# Stage changes BEFORE checking for remote updates
+# (avoids "unstaged changes" error during rebase)
+git add daily/*.json stats/summary.json
+
 # Pull latest changes first to avoid conflicts
 git fetch origin
 if ! git diff --quiet origin/main; then
     echo "[$(date -u)] Remote changes detected, rebasing..."
     git pull --rebase origin main
 fi
-
-git add daily/*.json stats/summary.json
 
 if git diff --staged --quiet; then
     echo "[$(date -u)] No changes to commit"
