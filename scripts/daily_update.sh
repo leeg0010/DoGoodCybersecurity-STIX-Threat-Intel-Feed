@@ -47,38 +47,49 @@ python3 scripts/generate_stats.py
 # Git operations
 echo "[$(date -u)] Committing and pushing to GitHub..."
 
-# Stage changes BEFORE checking for remote updates
-# (avoids "unstaged changes" error during rebase)
+# Check if there are any changes to commit first
 git add daily/*.json stats/summary.json
-
-# Pull latest changes first to avoid conflicts
-git fetch origin
-if ! git diff --quiet origin/main; then
-    echo "[$(date -u)] Remote changes detected, rebasing..."
-    git pull --rebase origin main
-fi
 
 if git diff --staged --quiet; then
     echo "[$(date -u)] No changes to commit"
-else
-    git commit -m "Daily STIX feed update - ${YESTERDAY}
+    exit 0
+fi
+
+# Fetch latest from remote to check for upstream changes
+git fetch origin
+
+# Check if remote has new commits we don't have
+LOCAL=$(git rev-parse main)
+REMOTE=$(git rev-parse origin/main)
+
+if [ "$LOCAL" != "$REMOTE" ]; then
+    echo "[$(date -u)] Remote has new commits, rebasing before commit..."
+    # Unstash our changes, rebase, then re-stage
+    git reset HEAD daily/*.json stats/summary.json
+    git stash
+    git pull --rebase origin main
+    git stash pop
+    git add daily/*.json stats/summary.json
+fi
+
+# Commit the changes
+git commit -m "Daily STIX feed update - ${YESTERDAY}
 
 Generated $(jq '.objects | length' ${OUTPUT_FILE}) STIX objects
 $(jq '[.objects[] | select(.type=="indicator")] | length' ${OUTPUT_FILE}) indicators published"
-    
-    # Retry push with rebase if rejected
-    if ! git push origin main; then
-        echo "[$(date -u)] Push rejected, pulling and retrying..."
-        git pull --rebase origin main
-        git push origin main
-    fi
-    
-    if [ $? -eq 0 ]; then
-        echo "[$(date -u)] Successfully pushed to GitHub"
-    else
-        echo "[$(date -u)] ERROR: Failed to push to GitHub"
-        exit 1
-    fi
+
+# Push to GitHub with retry logic
+if ! git push origin main; then
+    echo "[$(date -u)] Push rejected, pulling and retrying..."
+    git pull --rebase origin main
+    git push origin main
+fi
+
+if [ $? -eq 0 ]; then
+    echo "[$(date -u)] Successfully pushed to GitHub"
+else
+    echo "[$(date -u)] ERROR: Failed to push to GitHub"
+    exit 1
 fi
 
 echo "[$(date -u)] Daily feed generation complete"
