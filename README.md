@@ -12,9 +12,10 @@
 A **free, public threat intelligence feed** containing real attack indicators observed on honeypot sensors. Every IP address in this feed has been observed conducting malicious activity against decoy systems.
 
 **Key Details:**
-- 📊 **500-2,000 malicious IPs** identified daily
+- 📊 **2,000-5,000 malicious IPs** identified daily
 - 🔄 **Updated every 24 hours** at 3:00 AM UTC
-- 🌍 **Global coverage** - attackers from 150+ countries
+- 🌍 **Global coverage** - attackers from 175+ countries
+- 📈 **5.4M events analyzed** daily from distributed sensors
 - ✅ **Validated** - All indicators confirmed through real interactions
 - 💯 **Free to use** - CC0 Public Domain, no attribution required
 
@@ -175,18 +176,31 @@ curl -s https://raw.githubusercontent.com/leeg0010/DoGoodCybersecurity-STIX-Thre
 ## 📊 Feed Statistics
 
 **Daily Metrics:**
-- **500-2,000** malicious IPs per day
-- **~150,000** honeypot events analyzed daily
+- **2,000-5,000** malicious IPs published per day
+- **~5.4 million** security events analyzed daily
+- **600,000+** IDS detections processed (Suricata)
 - **40-50%** correlation rate (honeypot → real IP)
-- **150+** countries observed
-- **Average confidence:** 72/100
+- **175+** countries observed
+- **Average confidence:** 74/100
+
+**Event Volume by Source:**
+- Honeypot interactions: ~800,000/day
+- Firewall logs: ~4.2 million/day
+- Network IDS alerts: ~600,000/day
+- Total processed: **~5.4 million events/day**
 
 **Most Targeted Services:**
-1. Port 443 (HTTPS) - Web attacks
-2. Port 5900 (VNC) - Remote desktop brute force
-3. Port 22 (SSH) - Credential stuffing
-4. Port 3306 (MySQL) - Database exploits
-5. Port 445 (SMB) - Windows file sharing attacks
+1. **Port 5900 (VNC)** - Remote desktop brute force (150K+ attempts/day)
+2. **Port 443 (HTTPS)** - Web application attacks
+3. **Port 22 (SSH)** - Credential stuffing and command injection
+4. **Port 445 (SMB)** - Windows file sharing exploits
+5. **Port 3306 (MySQL)** - Database brute force
+
+**Top Attack Patterns:**
+- SSH/Telnet brute force: 45% of honeypot traffic
+- VNC scanning: 30% of attacks
+- Web exploitation: 15%
+- Database targeting: 10%
 
 See [stats/summary.json](stats/summary.json) for real-time metrics.
 
