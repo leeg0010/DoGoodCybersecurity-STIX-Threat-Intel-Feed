@@ -1,4 +1,4 @@
-# 🛡️ Honeypot Threat Intelligence Feed
+# DoGoodCybersecurity Honeypot Threat Intelligence Feed
 
 > **Public STIX 2.1 threat intelligence from a distributed honeypot network**  
 > Real-world attack data • Daily updates • Free to use
@@ -7,7 +7,7 @@
 [![STIX 2.1](https://img.shields.io/badge/STIX-2.1-green.svg)](https://oasis-open.github.io/cti-documentation/stix/intro.html)
 [![Update Frequency](https://img.shields.io/badge/Updates-Daily-orange.svg)](daily/)
 
-## 🎯 What is This?
+## What is This?
 
 A **free, public threat intelligence feed** containing real attack indicators observed on honeypot sensors. Every IP address in this feed has been observed conducting malicious activity against decoy systems.
 
