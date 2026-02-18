@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-02-18T10:56:43.230375Z",
+  "generated_at": "2026-02-18T17:13:21.975262Z",
   "total_indicators": 84303,
-  "total_feeds": 74,
+  "total_feeds": 75,
   "confidence": {
-    "average": 87.88,
+    "average": 87.65,
     "min": 60,
     "max": 100
   },
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 56157
+      "count": 51964
     },
     {
       "port": 5900,
-      "count": 15257
+      "count": 14958
     },
     {
       "port": 5351,
-      "count": 7309
+      "count": 6673
     },
     {
       "port": 1900,
-      "count": 5682
+      "count": 5237
     },
     {
       "port": 1433,
-      "count": 5131
+      "count": 5114
     },
     {
       "port": 22,
-      "count": 4329
+      "count": 4016
     },
     {
       "port": 3478,
-      "count": 4185
+      "count": 3820
     },
     {
       "port": 7788,
-      "count": 3861
-    },
-    {
-      "port": 80,
-      "count": 2610
+      "count": 3535
     },
     {
       "port": 445,
-      "count": 2565
+      "count": 2556
+    },
+    {
+      "port": 80,
+      "count": 2554
     }
   ],
   "top_countries": [
@@ -136,23 +136,39 @@
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 56157
+      "count": 51964
     },
     {
       "label": "vnc-scanning",
-      "count": 15257
+      "count": 14958
     },
     {
       "label": "reconnaissance",
-      "count": 10982
+      "count": 9873
+    },
+    {
+      "label": "OSINT",
+      "count": 5913
+    },
+    {
+      "label": "white",
+      "count": 5913
     },
     {
       "label": "database-scanning",
-      "count": 5666
+      "count": 5648
+    },
+    {
+      "label": "https-scan",
+      "count": 4193
     },
     {
       "label": "ssh-brute-force",
-      "count": 4329
+      "count": 4016
+    },
+    {
+      "label": "recon",
+      "count": 1109
     },
     {
       "label": "adb-exploitation",
