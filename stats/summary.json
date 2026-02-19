@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-18T17:13:21.975262Z",
-  "total_indicators": 84303,
-  "total_feeds": 75,
+  "generated_at": "2026-02-19T10:00:06.197845Z",
+  "total_indicators": 88405,
+  "total_feeds": 76,
   "confidence": {
     "average": 87.65,
     "min": 60,
@@ -52,43 +52,43 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 50688
+      "count": 53322
     },
     {
       "country": "US",
-      "count": 16926
+      "count": 17500
     },
     {
       "country": "GB",
-      "count": 2190
-    },
-    {
-      "country": "NL",
-      "count": 1859
+      "count": 2243
     },
     {
       "country": "CN",
-      "count": 1857
+      "count": 2011
+    },
+    {
+      "country": "NL",
+      "count": 1919
     },
     {
       "country": "DE",
-      "count": 1244
+      "count": 1291
     },
     {
       "country": "FR",
-      "count": 787
+      "count": 848
     },
     {
       "country": "SG",
-      "count": 774
+      "count": 838
     },
     {
       "country": "HK",
-      "count": 713
+      "count": 747
     },
     {
-      "country": "BG",
-      "count": 610
+      "country": "CA",
+      "count": 655
     }
   ],
   "top_asns": [
@@ -143,24 +143,24 @@
       "count": 14958
     },
     {
+      "label": "OSINT",
+      "count": 10015
+    },
+    {
+      "label": "white",
+      "count": 10015
+    },
+    {
       "label": "reconnaissance",
       "count": 9873
     },
     {
-      "label": "OSINT",
-      "count": 5913
-    },
-    {
-      "label": "white",
-      "count": 5913
+      "label": "https-scan",
+      "count": 6887
     },
     {
       "label": "database-scanning",
       "count": 5648
-    },
-    {
-      "label": "https-scan",
-      "count": 4193
     },
     {
       "label": "ssh-brute-force",
@@ -168,11 +168,11 @@
     },
     {
       "label": "recon",
-      "count": 1109
+      "count": 1956
     },
     {
-      "label": "adb-exploitation",
-      "count": 404
+      "label": "ssh-bruteforce",
+      "count": 592
     }
   ]
 }
