@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-19T10:00:06.197845Z",
-  "total_indicators": 88405,
-  "total_feeds": 76,
+  "generated_at": "2026-02-20T10:00:05.314346Z",
+  "total_indicators": 92896,
+  "total_feeds": 77,
   "confidence": {
     "average": 87.65,
     "min": 60,
@@ -52,43 +52,43 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 53322
+      "count": 56328
     },
     {
       "country": "US",
-      "count": 17500
+      "count": 18072
     },
     {
       "country": "GB",
-      "count": 2243
+      "count": 2329
     },
     {
       "country": "CN",
-      "count": 2011
+      "count": 2160
     },
     {
       "country": "NL",
-      "count": 1919
+      "count": 1962
     },
     {
       "country": "DE",
-      "count": 1291
+      "count": 1329
     },
     {
       "country": "FR",
-      "count": 848
+      "count": 918
     },
     {
       "country": "SG",
-      "count": 838
+      "count": 892
     },
     {
       "country": "HK",
-      "count": 747
+      "count": 779
     },
     {
       "country": "CA",
-      "count": 655
+      "count": 707
     }
   ],
   "top_asns": [
@@ -144,19 +144,19 @@
     },
     {
       "label": "OSINT",
-      "count": 10015
+      "count": 14506
     },
     {
       "label": "white",
-      "count": 10015
+      "count": 14506
+    },
+    {
+      "label": "https-scan",
+      "count": 10027
     },
     {
       "label": "reconnaissance",
       "count": 9873
-    },
-    {
-      "label": "https-scan",
-      "count": 6887
     },
     {
       "label": "database-scanning",
@@ -168,11 +168,11 @@
     },
     {
       "label": "recon",
-      "count": 1956
+      "count": 2774
     },
     {
       "label": "ssh-bruteforce",
-      "count": 592
+      "count": 868
     }
   ]
 }
