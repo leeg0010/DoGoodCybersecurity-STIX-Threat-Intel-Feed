@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-20T10:00:05.314346Z",
-  "total_indicators": 92896,
-  "total_feeds": 77,
+  "generated_at": "2026-02-21T10:00:02.810748Z",
+  "total_indicators": 95704,
+  "total_feeds": 78,
   "confidence": {
     "average": 87.65,
     "min": 60,
@@ -52,43 +52,43 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 56328
+      "count": 58768
     },
     {
       "country": "US",
-      "count": 18072
+      "count": 18167
     },
     {
       "country": "GB",
-      "count": 2329
+      "count": 2344
     },
     {
       "country": "CN",
-      "count": 2160
+      "count": 2182
     },
     {
       "country": "NL",
-      "count": 1962
+      "count": 1981
     },
     {
       "country": "DE",
-      "count": 1329
+      "count": 1352
     },
     {
       "country": "FR",
-      "count": 918
+      "count": 930
     },
     {
       "country": "SG",
-      "count": 892
+      "count": 906
     },
     {
       "country": "HK",
-      "count": 779
+      "count": 797
     },
     {
       "country": "CA",
-      "count": 707
+      "count": 710
     }
   ],
   "top_asns": [
@@ -139,16 +139,16 @@
       "count": 51964
     },
     {
-      "label": "vnc-scanning",
-      "count": 14958
-    },
-    {
       "label": "OSINT",
-      "count": 14506
+      "count": 17314
     },
     {
       "label": "white",
-      "count": 14506
+      "count": 17314
+    },
+    {
+      "label": "vnc-scanning",
+      "count": 14958
     },
     {
       "label": "https-scan",
@@ -163,16 +163,16 @@
       "count": 5648
     },
     {
+      "label": "recon",
+      "count": 5325
+    },
+    {
       "label": "ssh-brute-force",
       "count": 4016
     },
     {
-      "label": "recon",
-      "count": 2774
-    },
-    {
       "label": "ssh-bruteforce",
-      "count": 868
+      "count": 1125
     }
   ]
 }
