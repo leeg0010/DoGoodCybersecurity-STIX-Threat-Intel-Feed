@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--33046d62-c75c-4c3e-ad31-839025050fb8",
+    "id": "bundle--b142406b-e515-4981-9b75-69a05c13b379",
     "objects": [
         {
             "type": "identity",
             "spec_version": "2.1",
             "id": "identity--550e8400-e29b-41d4-a716-446655440000",
             "created": "2025-01-01T00:00:00.000Z",
-            "modified": "2025-12-15T02:36:58.000Z",
+            "modified": "2026-02-26T20:09:53.000Z",
             "name": "Distributed Honeypot Network",
             "identity_class": "system",
             "contact_information": "https://github.com/leeg0010/DoGoodCybersecurity-STIX-Threat-Intel-Feed"
