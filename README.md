@@ -86,9 +86,9 @@ Each daily bundle contains:
 
 Our network includes multiple honeypot types monitoring real-world attacks:
 
+- **Galah&** → 80 & 443 AI/LLM honeypot
 - **Cowrie** → SSH/Telnet brute force and command injection
-- **Dionaea** → SMB, MySQL, MSSQL, FTP, HTTP exploits
-- **ADBHoney** → Android Debug Bridge attacks
+- **Verbose Network Censor** → VNC AI/LLM Honeypot
 - **Suricata** → Network IDS detecting protocol anomalies
 - **Custom Sensors** → Web, email, and IoT attack surface
 
