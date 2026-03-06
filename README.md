@@ -279,6 +279,6 @@ Help improve this feed:
 
 **Feed Version:** 1.0 • **STIX Version:** 2.1 • **Last Updated:** 2026-02-10
 
-Made with 🛡️ by the security research community
+Made with redbull and love by LeeG0010
 
 </div>
