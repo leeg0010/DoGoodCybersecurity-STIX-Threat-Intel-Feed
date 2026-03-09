@@ -1,117 +1,117 @@
 {
-  "generated_at": "2026-03-08T10:00:12.131602Z",
-  "total_indicators": 251077,
-  "total_feeds": 125,
+  "generated_at": "2026-03-09T10:00:12.251159Z",
+  "total_indicators": 257239,
+  "total_feeds": 127,
   "confidence": {
-    "average": 92.55,
+    "average": 92.51,
     "min": 80,
     "max": 100
   },
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 200419
+      "count": 204889
     },
     {
       "port": 5351,
-      "count": 17290
+      "count": 18080
     },
     {
       "port": 7788,
-      "count": 16043
+      "count": 16369
     },
     {
       "port": 22,
-      "count": 15102
+      "count": 15507
     },
     {
       "port": 1900,
-      "count": 13261
+      "count": 13888
     },
     {
       "port": 3478,
-      "count": 9982
+      "count": 10137
     },
     {
       "port": 5900,
-      "count": 9302
+      "count": 9819
     },
     {
       "port": 80,
-      "count": 8227
+      "count": 8355
     },
     {
       "port": 53,
-      "count": 5859
+      "count": 6131
     },
     {
       "port": 41641,
-      "count": 2158
+      "count": 2235
     }
   ],
   "top_countries": [
     {
       "country": "BR",
-      "count": 187105
+      "count": 191456
     },
     {
       "country": "US",
-      "count": 25023
+      "count": 25608
     },
     {
       "country": "CN",
-      "count": 4461
+      "count": 4643
     },
     {
       "country": "NL",
-      "count": 3582
+      "count": 3663
     },
     {
       "country": "GB",
-      "count": 3474
+      "count": 3570
     },
     {
       "country": "DE",
-      "count": 2920
+      "count": 3028
     },
     {
       "country": "SG",
-      "count": 2111
+      "count": 2175
     },
     {
       "country": "FR",
-      "count": 2111
+      "count": 2162
     },
     {
       "country": "CA",
-      "count": 1976
+      "count": 2063
     },
     {
       "country": "HK",
-      "count": 1262
+      "count": 1300
     }
   ],
   "top_asns": [],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 200419
+      "count": 204889
     },
     {
       "label": "reconnaissance",
-      "count": 28746
+      "count": 29541
     },
     {
       "label": "ssh-brute-force",
-      "count": 15102
+      "count": 15507
     },
     {
       "label": "vnc-scanning",
-      "count": 9302
+      "count": 9819
     },
     {
       "label": "database-scanning",
-      "count": 1000
+      "count": 1009
     },
     {
       "label": "adb-exploitation",
