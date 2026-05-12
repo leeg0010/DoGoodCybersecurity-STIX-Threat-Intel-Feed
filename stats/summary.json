@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-11T22:12:33.884747Z",
-  "total_indicators": 349247,
+  "generated_at": "2026-05-12T10:00:05.367933Z",
+  "total_indicators": 349276,
   "total_feeds": 202,
   "confidence": {
     "average": 92.26,
@@ -10,7 +10,7 @@
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 262017
+      "count": 262021
     },
     {
       "port": 5351,
@@ -18,7 +18,7 @@
     },
     {
       "port": 22,
-      "count": 22237
+      "count": 22249
     },
     {
       "port": 1900,
@@ -34,11 +34,11 @@
     },
     {
       "port": 5900,
-      "count": 14729
+      "count": 14731
     },
     {
       "port": 80,
-      "count": 10310
+      "count": 10313
     },
     {
       "port": 53,
@@ -56,11 +56,11 @@
     },
     {
       "country": "US",
-      "count": 41212
+      "count": 41214
     },
     {
       "country": "CN",
-      "count": 7012
+      "count": 7013
     },
     {
       "country": "GB",
@@ -68,11 +68,11 @@
     },
     {
       "country": "NL",
-      "count": 5262
+      "count": 5266
     },
     {
       "country": "DE",
-      "count": 4317
+      "count": 4318
     },
     {
       "country": "CA",
@@ -80,11 +80,11 @@
     },
     {
       "country": "FR",
-      "count": 3498
+      "count": 3500
     },
     {
       "country": "SG",
-      "count": 2945
+      "count": 2947
     },
     {
       "country": "HK",
@@ -94,7 +94,7 @@
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 960
+      "count": 961
     },
     {
       "asn": "Modat B.V.",
@@ -122,7 +122,7 @@
     },
     {
       "asn": "ONYPHE SAS",
-      "count": 164
+      "count": 165
     },
     {
       "asn": "Cogent Communications, LLC",
@@ -136,19 +136,19 @@
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 262017
+      "count": 262021
     },
     {
       "label": "reconnaissance",
-      "count": 53691
+      "count": 53702
     },
     {
       "label": "ssh-brute-force",
-      "count": 22237
+      "count": 22249
     },
     {
       "label": "vnc-scanning",
-      "count": 14729
+      "count": 14731
     },
     {
       "label": "database-scanning",
