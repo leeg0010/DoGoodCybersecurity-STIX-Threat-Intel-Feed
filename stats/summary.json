@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-25T10:00:04.505231Z",
-  "total_indicators": 352202,
-  "total_feeds": 215,
+  "generated_at": "2026-05-26T10:00:04.670651Z",
+  "total_indicators": 352390,
+  "total_feeds": 216,
   "confidence": {
     "average": 92.23,
     "min": 80,
@@ -10,7 +10,7 @@
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 262984
+      "count": 263065
     },
     {
       "port": 5351,
@@ -18,7 +18,7 @@
     },
     {
       "port": 22,
-      "count": 23826
+      "count": 23901
     },
     {
       "port": 1900,
@@ -34,15 +34,15 @@
     },
     {
       "port": 5900,
-      "count": 14901
+      "count": 14906
     },
     {
       "port": 80,
-      "count": 10749
+      "count": 10790
     },
     {
       "port": 53,
-      "count": 10212
+      "count": 10213
     },
     {
       "port": 41641,
@@ -52,15 +52,15 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 241753
+      "count": 241755
     },
     {
       "country": "US",
-      "count": 41510
+      "count": 41523
     },
     {
       "country": "CN",
-      "count": 7076
+      "count": 7079
     },
     {
       "country": "GB",
@@ -68,23 +68,23 @@
     },
     {
       "country": "NL",
-      "count": 5395
+      "count": 5398
     },
     {
       "country": "DE",
-      "count": 4467
+      "count": 4468
     },
     {
       "country": "CA",
-      "count": 3973
+      "count": 3974
     },
     {
       "country": "FR",
-      "count": 3533
+      "count": 3535
     },
     {
       "country": "SG",
-      "count": 2988
+      "count": 2990
     },
     {
       "country": "HK",
@@ -94,7 +94,7 @@
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1023
+      "count": 1026
     },
     {
       "asn": "Modat B.V.",
@@ -102,7 +102,7 @@
     },
     {
       "asn": "31173 Services AB",
-      "count": 295
+      "count": 297
     },
     {
       "asn": "Datacamp Limited",
@@ -110,7 +110,7 @@
     },
     {
       "asn": "NetActuate, Inc",
-      "count": 273
+      "count": 276
     },
     {
       "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
@@ -118,11 +118,11 @@
     },
     {
       "asn": "Contabo GmbH",
-      "count": 244
+      "count": 245
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 239
+      "count": 240
     },
     {
       "asn": "Unmanaged Ltd",
@@ -136,19 +136,19 @@
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 262984
+      "count": 263065
     },
     {
       "label": "reconnaissance",
-      "count": 53991
+      "count": 54021
     },
     {
       "label": "ssh-brute-force",
-      "count": 23826
+      "count": 23901
     },
     {
       "label": "vnc-scanning",
-      "count": 14901
+      "count": 14906
     },
     {
       "label": "database-scanning",
