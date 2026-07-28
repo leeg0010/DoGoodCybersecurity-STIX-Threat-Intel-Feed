@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-27T10:00:04.152203Z",
-  "total_indicators": 352537,
-  "total_feeds": 278,
+  "generated_at": "2026-07-28T10:00:05.358864Z",
+  "total_indicators": 352818,
+  "total_feeds": 279,
   "confidence": {
-    "average": 92.23,
+    "average": 92.22,
     "min": 80,
     "max": 100
   },
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 263148
+      "count": 263188
     },
     {
       "port": 5351,
@@ -18,7 +18,7 @@
     },
     {
       "port": 22,
-      "count": 23932
+      "count": 23942
     },
     {
       "port": 1900,
@@ -34,11 +34,11 @@
     },
     {
       "port": 5900,
-      "count": 14909
+      "count": 15109
     },
     {
       "port": 80,
-      "count": 10828
+      "count": 10845
     },
     {
       "port": 53,
@@ -52,19 +52,19 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 241757
+      "count": 241759
     },
     {
       "country": "US",
-      "count": 41530
+      "count": 41579
     },
     {
       "country": "CN",
-      "count": 7081
+      "count": 7120
     },
     {
       "country": "GB",
-      "count": 5514
+      "count": 5517
     },
     {
       "country": "NL",
@@ -72,33 +72,33 @@
     },
     {
       "country": "DE",
-      "count": 4473
+      "count": 4476
     },
     {
       "country": "CA",
-      "count": 3975
+      "count": 3978
     },
     {
       "country": "FR",
-      "count": 3536
+      "count": 3539
     },
     {
       "country": "SG",
-      "count": 2991
+      "count": 3028
     },
     {
       "country": "HK",
-      "count": 2047
+      "count": 2050
     }
   ],
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1027
+      "count": 1039
     },
     {
       "asn": "Modat B.V.",
-      "count": 353
+      "count": 354
     },
     {
       "asn": "31173 Services AB",
@@ -110,23 +110,23 @@
     },
     {
       "asn": "NetActuate, Inc",
-      "count": 277
+      "count": 283
     },
     {
       "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "count": 271
+      "count": 282
     },
     {
       "asn": "Contabo GmbH",
-      "count": 246
+      "count": 247
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 241
+      "count": 246
     },
     {
       "asn": "Unmanaged Ltd",
-      "count": 174
+      "count": 175
     },
     {
       "asn": "ONYPHE SAS",
@@ -136,19 +136,19 @@
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 263148
+      "count": 263188
     },
     {
       "label": "reconnaissance",
-      "count": 54053
+      "count": 54084
     },
     {
       "label": "ssh-brute-force",
-      "count": 23932
+      "count": 23942
     },
     {
       "label": "vnc-scanning",
-      "count": 14909
+      "count": 15109
     },
     {
       "label": "database-scanning",
