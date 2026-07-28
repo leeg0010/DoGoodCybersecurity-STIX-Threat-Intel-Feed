@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T10:00:05.358864Z",
-  "total_indicators": 352818,
+  "generated_at": "2026-07-28T21:24:32.924618Z",
+  "total_indicators": 354299,
   "total_feeds": 279,
   "confidence": {
     "average": 92.22,
@@ -18,7 +18,7 @@
     },
     {
       "port": 22,
-      "count": 23942
+      "count": 23949
     },
     {
       "port": 1900,
@@ -52,60 +52,64 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 241759
+      "count": 241791
     },
     {
       "country": "US",
-      "count": 41579
+      "count": 41782
     },
     {
       "country": "CN",
-      "count": 7120
+      "count": 7213
     },
     {
       "country": "GB",
-      "count": 5517
+      "count": 5543
     },
     {
       "country": "NL",
-      "count": 5400
+      "count": 5493
     },
     {
       "country": "DE",
-      "count": 4476
+      "count": 4577
     },
     {
       "country": "CA",
-      "count": 3978
+      "count": 3999
     },
     {
       "country": "FR",
-      "count": 3539
+      "count": 3571
     },
     {
       "country": "SG",
-      "count": 3028
+      "count": 3062
     },
     {
       "country": "HK",
-      "count": 2050
+      "count": 2092
     }
   ],
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1039
+      "count": 1134
+    },
+    {
+      "asn": "31173 Services AB",
+      "count": 375
     },
     {
       "asn": "Modat B.V.",
       "count": 354
     },
     {
-      "asn": "31173 Services AB",
-      "count": 303
+      "asn": "Datacamp Limited",
+      "count": 306
     },
     {
-      "asn": "Datacamp Limited",
+      "asn": "Unmanaged Ltd",
       "count": 285
     },
     {
@@ -114,23 +118,19 @@
     },
     {
       "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "count": 282
+      "count": 283
     },
     {
       "asn": "Contabo GmbH",
-      "count": 247
+      "count": 259
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 246
+      "count": 250
     },
     {
-      "asn": "Unmanaged Ltd",
-      "count": 175
-    },
-    {
-      "asn": "ONYPHE SAS",
-      "count": 165
+      "asn": "Tencent Building, Kejizhongyi Avenue",
+      "count": 183
     }
   ],
   "top_activity_types": [
@@ -140,11 +140,11 @@
     },
     {
       "label": "reconnaissance",
-      "count": 54084
+      "count": 55558
     },
     {
       "label": "ssh-brute-force",
-      "count": 23942
+      "count": 23949
     },
     {
       "label": "vnc-scanning",
