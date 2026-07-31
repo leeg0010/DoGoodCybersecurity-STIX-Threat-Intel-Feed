@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T10:00:04.849320Z",
-  "total_indicators": 356244,
-  "total_feeds": 281,
+  "generated_at": "2026-07-31T10:00:05.476281Z",
+  "total_indicators": 356810,
+  "total_feeds": 282,
   "confidence": {
     "average": 92.22,
     "min": 80,
@@ -10,7 +10,7 @@
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 264089
+      "count": 264234
     },
     {
       "port": 5351,
@@ -18,7 +18,7 @@
     },
     {
       "port": 22,
-      "count": 24183
+      "count": 24282
     },
     {
       "port": 1900,
@@ -34,11 +34,11 @@
     },
     {
       "port": 5900,
-      "count": 15591
+      "count": 15819
     },
     {
       "port": 80,
-      "count": 11081
+      "count": 11141
     },
     {
       "port": 53,
@@ -52,53 +52,53 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 241825
+      "count": 241837
     },
     {
       "country": "US",
-      "count": 42017
+      "count": 42098
     },
     {
       "country": "CN",
-      "count": 7380
+      "count": 7458
     },
     {
       "country": "GB",
-      "count": 5574
+      "count": 5579
     },
     {
       "country": "NL",
-      "count": 5526
+      "count": 5540
     },
     {
       "country": "DE",
-      "count": 4617
+      "count": 4640
     },
     {
       "country": "CA",
-      "count": 4013
+      "count": 4015
     },
     {
       "country": "FR",
-      "count": 3611
+      "count": 3619
     },
     {
       "country": "SG",
-      "count": 3219
+      "count": 3296
     },
     {
       "country": "HK",
-      "count": 2106
+      "count": 2113
     }
   ],
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1207
+      "count": 1240
     },
     {
       "asn": "Modat B.V.",
-      "count": 383
+      "count": 384
     },
     {
       "asn": "31173 Services AB",
@@ -106,49 +106,49 @@
     },
     {
       "asn": "NetActuate, Inc",
-      "count": 344
+      "count": 358
     },
     {
       "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "count": 333
+      "count": 356
     },
     {
       "asn": "Datacamp Limited",
-      "count": 307
+      "count": 308
     },
     {
       "asn": "Unmanaged Ltd",
-      "count": 298
+      "count": 306
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 277
+      "count": 285
     },
     {
       "asn": "Contabo GmbH",
-      "count": 263
+      "count": 266
     },
     {
       "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 238
+      "count": 264
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 264089
+      "count": 264234
     },
     {
       "label": "reconnaissance",
-      "count": 56022
+      "count": 56128
     },
     {
       "label": "ssh-brute-force",
-      "count": 24183
+      "count": 24282
     },
     {
       "label": "vnc-scanning",
-      "count": 15591
+      "count": 15819
     },
     {
       "label": "database-scanning",
