@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-01T10:00:05.763545Z",
-  "total_indicators": 357389,
-  "total_feeds": 283,
+  "generated_at": "2026-08-02T10:00:05.112759Z",
+  "total_indicators": 357944,
+  "total_feeds": 284,
   "confidence": {
     "average": 92.23,
     "min": 80,
@@ -10,7 +10,7 @@
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 264384
+      "count": 264524
     },
     {
       "port": 5351,
@@ -18,7 +18,7 @@
     },
     {
       "port": 22,
-      "count": 24387
+      "count": 24465
     },
     {
       "port": 1900,
@@ -29,20 +29,20 @@
       "count": 21726
     },
     {
+      "port": 5900,
+      "count": 16349
+    },
+    {
       "port": 3478,
       "count": 16305
     },
     {
-      "port": 5900,
-      "count": 16078
-    },
-    {
       "port": 80,
-      "count": 11185
+      "count": 11277
     },
     {
       "port": 53,
-      "count": 10411
+      "count": 10412
     },
     {
       "port": 41641,
@@ -52,57 +52,57 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 241846
+      "count": 241855
     },
     {
       "country": "US",
-      "count": 42161
+      "count": 42205
     },
     {
       "country": "CN",
-      "count": 7529
+      "count": 7609
     },
     {
       "country": "GB",
-      "count": 5586
+      "count": 5588
     },
     {
       "country": "NL",
-      "count": 5551
+      "count": 5558
     },
     {
       "country": "DE",
-      "count": 4653
+      "count": 4656
     },
     {
       "country": "CA",
-      "count": 4017
+      "count": 4020
     },
     {
       "country": "FR",
-      "count": 3626
+      "count": 3633
     },
     {
       "country": "SG",
-      "count": 3367
+      "count": 3431
     },
     {
       "country": "HK",
-      "count": 2119
+      "count": 2129
     }
   ],
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1263
+      "count": 1281
+    },
+    {
+      "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "count": 399
     },
     {
       "asn": "Modat B.V.",
       "count": 385
-    },
-    {
-      "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "count": 380
     },
     {
       "asn": "31173 Services AB",
@@ -110,45 +110,45 @@
     },
     {
       "asn": "NetActuate, Inc",
-      "count": 368
-    },
-    {
-      "asn": "Unmanaged Ltd",
-      "count": 312
+      "count": 369
     },
     {
       "asn": "Alibaba (US) Technology Co., Ltd.",
-      "count": 310
+      "count": 366
+    },
+    {
+      "asn": "Tencent Building, Kejizhongyi Avenue",
+      "count": 332
+    },
+    {
+      "asn": "Unmanaged Ltd",
+      "count": 316
     },
     {
       "asn": "Datacamp Limited",
       "count": 308
     },
     {
-      "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 292
-    },
-    {
-      "asn": "Amazon.com, Inc.",
-      "count": 290
+      "asn": "Shenzhen Tencent Computer Systems Company Limited",
+      "count": 302
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 264384
+      "count": 264524
     },
     {
       "label": "reconnaissance",
-      "count": 56204
+      "count": 56277
     },
     {
       "label": "ssh-brute-force",
-      "count": 24387
+      "count": 24465
     },
     {
       "label": "vnc-scanning",
-      "count": 16078
+      "count": 16349
     },
     {
       "label": "database-scanning",
