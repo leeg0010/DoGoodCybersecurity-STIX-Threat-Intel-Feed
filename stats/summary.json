@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04T10:00:04.240879Z",
-  "total_indicators": 357944,
+  "generated_at": "2026-08-04T20:53:50.664723Z",
+  "total_indicators": 358134,
   "total_feeds": 286,
   "confidence": {
-    "average": 92.23,
+    "average": 92.22,
     "min": 80,
     "max": 100
   },
@@ -52,49 +52,49 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 241855
+      "count": 241859
     },
     {
       "country": "US",
-      "count": 42205
+      "count": 42227
     },
     {
       "country": "CN",
-      "count": 7609
+      "count": 7612
     },
     {
       "country": "GB",
-      "count": 5588
+      "count": 5593
     },
     {
       "country": "NL",
-      "count": 5558
+      "count": 5571
     },
     {
       "country": "DE",
-      "count": 4656
+      "count": 4670
     },
     {
       "country": "CA",
-      "count": 4020
+      "count": 4025
     },
     {
       "country": "FR",
-      "count": 3633
+      "count": 3656
     },
     {
       "country": "SG",
-      "count": 3431
+      "count": 3436
     },
     {
       "country": "HK",
-      "count": 2129
+      "count": 2131
     }
   ],
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1281
+      "count": 1302
     },
     {
       "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
@@ -118,15 +118,15 @@
     },
     {
       "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 332
+      "count": 334
     },
     {
       "asn": "Unmanaged Ltd",
-      "count": 316
+      "count": 329
     },
     {
       "asn": "Datacamp Limited",
-      "count": 308
+      "count": 310
     },
     {
       "asn": "Shenzhen Tencent Computer Systems Company Limited",
@@ -140,7 +140,7 @@
     },
     {
       "label": "reconnaissance",
-      "count": 56277
+      "count": 56467
     },
     {
       "label": "ssh-brute-force",
