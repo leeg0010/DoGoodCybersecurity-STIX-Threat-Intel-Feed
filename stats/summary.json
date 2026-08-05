@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T20:53:50.664723Z",
-  "total_indicators": 358134,
-  "total_feeds": 286,
+  "generated_at": "2026-08-05T10:00:05.560451Z",
+  "total_indicators": 358505,
+  "total_feeds": 287,
   "confidence": {
     "average": 92.22,
     "min": 80,
@@ -10,7 +10,7 @@
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 264524
+      "count": 264557
     },
     {
       "port": 5351,
@@ -18,7 +18,7 @@
     },
     {
       "port": 22,
-      "count": 24465
+      "count": 24493
     },
     {
       "port": 1900,
@@ -30,7 +30,7 @@
     },
     {
       "port": 5900,
-      "count": 16349
+      "count": 16613
     },
     {
       "port": 3478,
@@ -38,7 +38,7 @@
     },
     {
       "port": 80,
-      "count": 11277
+      "count": 11283
     },
     {
       "port": 53,
@@ -52,27 +52,27 @@
   "top_countries": [
     {
       "country": "BR",
-      "count": 241859
+      "count": 241861
     },
     {
       "country": "US",
-      "count": 42227
+      "count": 42238
     },
     {
       "country": "CN",
-      "count": 7612
+      "count": 7613
     },
     {
       "country": "GB",
-      "count": 5593
+      "count": 5595
     },
     {
       "country": "NL",
-      "count": 5571
+      "count": 5575
     },
     {
       "country": "DE",
-      "count": 4670
+      "count": 4673
     },
     {
       "country": "CA",
@@ -80,21 +80,21 @@
     },
     {
       "country": "FR",
-      "count": 3656
+      "count": 3658
     },
     {
       "country": "SG",
-      "count": 3436
+      "count": 3437
     },
     {
       "country": "HK",
-      "count": 2131
+      "count": 2133
     }
   ],
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1302
+      "count": 1307
     },
     {
       "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
@@ -117,12 +117,12 @@
       "count": 366
     },
     {
-      "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 334
+      "asn": "Unmanaged Ltd",
+      "count": 336
     },
     {
-      "asn": "Unmanaged Ltd",
-      "count": 329
+      "asn": "Tencent Building, Kejizhongyi Avenue",
+      "count": 336
     },
     {
       "asn": "Datacamp Limited",
@@ -136,19 +136,19 @@
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 264524
+      "count": 264557
     },
     {
       "label": "reconnaissance",
-      "count": 56467
+      "count": 56514
     },
     {
       "label": "ssh-brute-force",
-      "count": 24465
+      "count": 24493
     },
     {
       "label": "vnc-scanning",
-      "count": 16349
+      "count": 16613
     },
     {
       "label": "database-scanning",
