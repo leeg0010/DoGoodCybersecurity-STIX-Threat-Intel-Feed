@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-12T10:00:05.916011Z",
-  "total_indicators": 363244,
-  "total_feeds": 294,
+  "generated_at": "2026-08-13T10:00:05.011542Z",
+  "total_indicators": 364040,
+  "total_feeds": 295,
   "confidence": {
     "average": 92.24,
     "min": 80,
@@ -10,7 +10,7 @@
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 265681
+      "count": 265814
     },
     {
       "port": 5351,
@@ -18,7 +18,7 @@
     },
     {
       "port": 22,
-      "count": 24969
+      "count": 25049
     },
     {
       "port": 1900,
@@ -30,7 +30,7 @@
     },
     {
       "port": 5900,
-      "count": 19000
+      "count": 19326
     },
     {
       "port": 3478,
@@ -38,7 +38,7 @@
     },
     {
       "port": 80,
-      "count": 11945
+      "count": 12182
     },
     {
       "port": 53,
@@ -46,109 +46,109 @@
     },
     {
       "port": 41641,
-      "count": 3760
+      "count": 3814
     }
   ],
   "top_countries": [
     {
       "country": "BR",
-      "count": 242009
+      "count": 242034
     },
     {
       "country": "US",
-      "count": 43159
+      "count": 43305
     },
     {
       "country": "CN",
-      "count": 8688
+      "count": 8835
     },
     {
       "country": "NL",
-      "count": 5706
+      "count": 5730
     },
     {
       "country": "GB",
-      "count": 5643
+      "count": 5651
     },
     {
       "country": "DE",
-      "count": 4837
+      "count": 4854
     },
     {
       "country": "SG",
-      "count": 4140
+      "count": 4232
     },
     {
       "country": "CA",
-      "count": 4061
+      "count": 4064
     },
     {
       "country": "FR",
-      "count": 3846
+      "count": 3855
     },
     {
       "country": "HK",
-      "count": 2254
+      "count": 2271
     }
   ],
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1410
+      "count": 1436
     },
     {
       "asn": "Alibaba (US) Technology Co., Ltd.",
-      "count": 883
+      "count": 967
     },
     {
       "asn": "Shenzhen Tencent Computer Systems Company Limited",
-      "count": 777
+      "count": 852
     },
     {
       "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "count": 690
+      "count": 737
     },
     {
       "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 652
+      "count": 705
     },
     {
       "asn": "NetActuate, Inc",
-      "count": 582
+      "count": 618
     },
     {
       "asn": "Google LLC",
-      "count": 408
+      "count": 597
+    },
+    {
+      "asn": "Amazon.com, Inc.",
+      "count": 394
     },
     {
       "asn": "Modat B.V.",
-      "count": 392
+      "count": 393
     },
     {
       "asn": "Unmanaged Ltd",
-      "count": 381
-    },
-    {
-      "asn": "31173 Services AB",
-      "count": 376
+      "count": 391
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 265681
+      "count": 265814
     },
     {
       "label": "reconnaissance",
-      "count": 57325
+      "count": 57592
     },
     {
       "label": "ssh-brute-force",
-      "count": 24969
+      "count": 25049
     },
     {
       "label": "vnc-scanning",
-      "count": 19000
+      "count": 19326
     },
     {
       "label": "database-scanning",
