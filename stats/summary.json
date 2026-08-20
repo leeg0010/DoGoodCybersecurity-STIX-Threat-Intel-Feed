@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-19T10:00:06.822049Z",
-  "total_indicators": 367975,
-  "total_feeds": 301,
+  "generated_at": "2026-08-20T10:00:06.722070Z",
+  "total_indicators": 368451,
+  "total_feeds": 302,
   "confidence": {
     "average": 92.26,
     "min": 80,
@@ -10,145 +10,145 @@
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 266811
+      "count": 266962
     },
     {
       "port": 5351,
-      "count": 29509
+      "count": 29514
     },
     {
       "port": 22,
-      "count": 25559
+      "count": 25632
     },
     {
       "port": 1900,
-      "count": 22146
+      "count": 22151
     },
     {
       "port": 7788,
-      "count": 21726
+      "count": 21729
     },
     {
       "port": 5900,
-      "count": 21179
+      "count": 21391
     },
     {
       "port": 3478,
-      "count": 16305
+      "count": 16308
     },
     {
       "port": 80,
-      "count": 12918
+      "count": 12974
     },
     {
       "port": 53,
-      "count": 10412
+      "count": 10417
     },
     {
       "port": 41641,
-      "count": 4127
+      "count": 4180
     }
   ],
   "top_countries": [
     {
       "country": "BR",
-      "count": 242149
+      "count": 242164
     },
     {
       "country": "US",
-      "count": 44129
+      "count": 44222
     },
     {
       "country": "CN",
-      "count": 9692
+      "count": 9781
     },
     {
       "country": "NL",
-      "count": 5881
+      "count": 5904
     },
     {
       "country": "GB",
-      "count": 5681
+      "count": 5687
     },
     {
       "country": "DE",
-      "count": 4980
+      "count": 5003
     },
     {
       "country": "SG",
-      "count": 4775
+      "count": 4851
     },
     {
       "country": "CA",
-      "count": 4117
+      "count": 4119
     },
     {
       "country": "FR",
-      "count": 4024
+      "count": 4027
     },
     {
       "country": "HK",
-      "count": 2369
+      "count": 2378
     }
   ],
   "top_asns": [
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1564
+      "count": 1578
     },
     {
       "asn": "Alibaba (US) Technology Co., Ltd.",
-      "count": 1424
+      "count": 1503
     },
     {
       "asn": "Shenzhen Tencent Computer Systems Company Limited",
-      "count": 1287
+      "count": 1332
     },
     {
       "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "count": 1008
+      "count": 1034
     },
     {
       "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 987
+      "count": 999
     },
     {
       "asn": "NetActuate, Inc",
-      "count": 829
+      "count": 865
     },
     {
       "asn": "Google LLC",
-      "count": 808
+      "count": 812
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 476
+      "count": 490
     },
     {
       "asn": "Unmanaged Ltd",
-      "count": 441
+      "count": 449
     },
     {
       "asn": "Oracle Corporation",
-      "count": 415
+      "count": 430
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 266811
+      "count": 266962
     },
     {
       "label": "reconnaissance",
-      "count": 58276
+      "count": 58341
     },
     {
       "label": "ssh-brute-force",
-      "count": 25559
+      "count": 25632
     },
     {
       "label": "vnc-scanning",
-      "count": 21179
+      "count": 21391
     },
     {
       "label": "database-scanning",
