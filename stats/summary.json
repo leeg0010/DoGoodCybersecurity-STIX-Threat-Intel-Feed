@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T10:00:08.345297Z",
-  "total_indicators": 373305,
-  "total_feeds": 307,
+  "generated_at": "2026-08-26T10:00:06.234941Z",
+  "total_indicators": 373827,
+  "total_feeds": 308,
   "confidence": {
     "average": 92.29,
     "min": 80,
@@ -10,145 +10,145 @@
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 268457
+      "count": 268506
     },
     {
       "port": 5351,
-      "count": 29966
+      "count": 29995
     },
     {
       "port": 22,
-      "count": 26048
+      "count": 26059
     },
     {
       "port": 5900,
-      "count": 22936
+      "count": 23219
     },
     {
       "port": 1900,
-      "count": 22437
+      "count": 22460
     },
     {
       "port": 7788,
-      "count": 22360
+      "count": 22383
     },
     {
       "port": 3478,
-      "count": 16713
+      "count": 16738
     },
     {
       "port": 80,
-      "count": 13365
+      "count": 13372
     },
     {
       "port": 53,
-      "count": 10612
+      "count": 10614
     },
     {
       "port": 41641,
-      "count": 4443
+      "count": 4494
     }
   ],
   "top_countries": [
     {
       "country": "BR",
-      "count": 242275
+      "count": 242291
     },
     {
       "country": "US",
-      "count": 44932
+      "count": 45003
     },
     {
       "country": "CN",
-      "count": 10432
+      "count": 10558
     },
     {
       "country": "NL",
-      "count": 6014
+      "count": 6027
     },
     {
       "country": "GB",
-      "count": 5753
+      "count": 5757
     },
     {
       "country": "SG",
-      "count": 5311
+      "count": 5395
     },
     {
       "country": "DE",
-      "count": 5146
+      "count": 5166
     },
     {
       "country": "CA",
-      "count": 4160
+      "count": 4170
     },
     {
       "country": "FR",
-      "count": 4097
+      "count": 4105
     },
     {
       "country": "HK",
-      "count": 2448
+      "count": 2461
     }
   ],
   "top_asns": [
     {
       "asn": "Alibaba (US) Technology Co., Ltd.",
-      "count": 1894
-    },
-    {
-      "asn": "DigitalOcean, LLC",
-      "count": 1682
+      "count": 1963
     },
     {
       "asn": "Shenzhen Tencent Computer Systems Company Limited",
-      "count": 1655
+      "count": 1719
+    },
+    {
+      "asn": "DigitalOcean, LLC",
+      "count": 1693
     },
     {
       "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 1259
+      "count": 1305
     },
     {
       "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "count": 1257
+      "count": 1299
     },
     {
       "asn": "NetActuate, Inc",
-      "count": 1043
+      "count": 1078
     },
     {
       "asn": "Google LLC",
-      "count": 855
+      "count": 860
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 574
+      "count": 580
     },
     {
       "asn": "Oracle Corporation",
-      "count": 510
+      "count": 526
     },
     {
       "asn": "31173 Services AB",
-      "count": 487
+      "count": 497
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 268457
+      "count": 268506
     },
     {
       "label": "reconnaissance",
-      "count": 59969
+      "count": 60151
     },
     {
       "label": "ssh-brute-force",
-      "count": 26048
+      "count": 26059
     },
     {
       "label": "vnc-scanning",
-      "count": 22936
+      "count": 23219
     },
     {
       "label": "database-scanning",
