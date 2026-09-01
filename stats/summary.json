@@ -1,162 +1,162 @@
 {
-  "generated_at": "2026-09-01T10:00:07.322819Z",
-  "total_indicators": 380031,
-  "total_feeds": 314,
+  "generated_at": "2026-09-01T15:48:51.481868Z",
+  "total_indicators": 507854,
+  "total_feeds": 267,
   "confidence": {
-    "average": 92.33,
-    "min": 80,
+    "average": 88.15,
+    "min": 75,
     "max": 100
   },
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 270381
+      "count": 320729
     },
     {
       "port": 5351,
-      "count": 31053
+      "count": 29628
     },
     {
       "port": 22,
-      "count": 26421
-    },
-    {
-      "port": 5900,
-      "count": 24816
-    },
-    {
-      "port": 7788,
-      "count": 23675
+      "count": 27504
     },
     {
       "port": 1900,
-      "count": 23172
+      "count": 22215
     },
     {
-      "port": 3478,
-      "count": 17443
+      "port": 7788,
+      "count": 21757
     },
     {
       "port": 80,
-      "count": 13841
+      "count": 16877
+    },
+    {
+      "port": 5900,
+      "count": 16849
+    },
+    {
+      "port": 3478,
+      "count": 16560
     },
     {
       "port": 53,
-      "count": 11090
+      "count": 10956
     },
     {
-      "port": 41641,
-      "count": 4770
+      "port": 8443,
+      "count": 9055
     }
   ],
   "top_countries": [
     {
       "country": "BR",
-      "count": 242408
+      "count": 247221
     },
     {
       "country": "US",
-      "count": 46304
-    },
-    {
-      "country": "CN",
-      "count": 10938
-    },
-    {
-      "country": "NL",
-      "count": 6228
+      "count": 108003
     },
     {
       "country": "GB",
-      "count": 6079
-    },
-    {
-      "country": "SG",
-      "count": 5685
+      "count": 20545
     },
     {
       "country": "DE",
-      "count": 5406
+      "count": 16761
     },
     {
       "country": "FR",
-      "count": 4448
+      "count": 12498
+    },
+    {
+      "country": "NL",
+      "count": 10694
+    },
+    {
+      "country": "CN",
+      "count": 10334
     },
     {
       "country": "CA",
-      "count": 4220
+      "count": 6998
+    },
+    {
+      "country": "SG",
+      "count": 5523
     },
     {
       "country": "HK",
-      "count": 2534
+      "count": 4247
     }
   ],
   "top_asns": [
     {
-      "asn": "Alibaba (US) Technology Co., Ltd.",
-      "count": 2184
-    },
-    {
-      "asn": "Shenzhen Tencent Computer Systems Company Limited",
-      "count": 1929
+      "asn": "3xK Tech GmbH",
+      "count": 29400
     },
     {
       "asn": "DigitalOcean, LLC",
-      "count": 1763
+      "count": 1715
     },
     {
       "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 1461
-    },
-    {
-      "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "count": 1409
-    },
-    {
-      "asn": "NetActuate, Inc",
-      "count": 1233
+      "count": 1532
     },
     {
       "asn": "Google LLC",
-      "count": 879
+      "count": 1129
+    },
+    {
+      "asn": "Alibaba (US) Technology Co., Ltd.",
+      "count": 1091
+    },
+    {
+      "asn": "Shenzhen Tencent Computer Systems Company Limited",
+      "count": 882
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 597
+      "count": 862
     },
     {
-      "asn": "Oracle Corporation",
-      "count": 567
+      "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "count": 741
+    },
+    {
+      "asn": "Microsoft Corporation",
+      "count": 537
     },
     {
       "asn": "31173 Services AB",
-      "count": 502
+      "count": 481
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 270381
+      "count": 320729
     },
     {
       "label": "reconnaissance",
-      "count": 62661
-    },
-    {
-      "label": "ssh-brute-force",
-      "count": 26421
+      "count": 133538
     },
     {
       "label": "vnc-scanning",
-      "count": 24816
+      "count": 30789
+    },
+    {
+      "label": "ssh-brute-force",
+      "count": 27504
     },
     {
       "label": "database-scanning",
-      "count": 1329
+      "count": 2393
     },
     {
       "label": "adb-exploitation",
-      "count": 184
+      "count": 474
     }
   ]
 }
