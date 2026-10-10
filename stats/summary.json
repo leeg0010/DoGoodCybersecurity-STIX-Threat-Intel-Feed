@@ -1,100 +1,100 @@
 {
-  "generated_at": "2026-10-09T10:00:14.820070Z",
-  "total_indicators": 772462,
-  "total_feeds": 305,
+  "generated_at": "2026-10-10T10:00:15.021689Z",
+  "total_indicators": 777911,
+  "total_feeds": 306,
   "confidence": {
-    "average": 84.8,
+    "average": 84.75,
     "min": 75,
     "max": 100
   },
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 421213
+      "count": 421594
     },
     {
       "port": 22,
-      "count": 35361
+      "count": 35514
     },
     {
       "port": 5351,
-      "count": 29871
+      "count": 29877
     },
     {
       "port": 80,
-      "count": 24691
+      "count": 24905
     },
     {
       "port": 1900,
-      "count": 22329
+      "count": 22333
     },
     {
       "port": 7788,
-      "count": 21806
+      "count": 21807
     },
     {
       "port": 5900,
-      "count": 18411
+      "count": 18463
     },
     {
       "port": 8443,
-      "count": 17844
+      "count": 17887
     },
     {
       "port": 3478,
-      "count": 16967
+      "count": 16976
     },
     {
       "port": 53,
-      "count": 11825
+      "count": 11845
     }
   ],
   "top_countries": [
     {
       "country": "BR",
-      "count": 253104
+      "count": 253144
     },
     {
       "country": "US",
-      "count": 223328
+      "count": 225491
     },
     {
       "country": "GB",
-      "count": 42326
+      "count": 43109
     },
     {
       "country": "DE",
-      "count": 33939
+      "count": 34280
     },
     {
       "country": "FR",
-      "count": 23929
+      "count": 24038
     },
     {
       "country": "NL",
-      "count": 19663
+      "count": 19954
     },
     {
       "country": "CN",
-      "count": 15704
+      "count": 15769
     },
     {
       "country": "RU",
-      "count": 10907
+      "count": 10920
     },
     {
       "country": "CA",
-      "count": 10788
+      "count": 10863
     },
     {
       "country": "SG",
-      "count": 9113
+      "count": 9163
     }
   ],
   "top_asns": [
     {
       "asn": "3xK Tech GmbH",
-      "count": 65737
+      "count": 65743
     },
     {
       "asn": "PureVoltage Hosting Inc.",
@@ -114,7 +114,7 @@
     },
     {
       "asn": "Cyberzone S.A.",
-      "count": 6788
+      "count": 6923
     },
     {
       "asn": "Global Transit Systems LLC",
@@ -122,41 +122,41 @@
     },
     {
       "asn": "Datacamp Limited",
-      "count": 5801
+      "count": 5876
     },
     {
       "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 3976
+      "count": 4024
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 3230
+      "count": 3359
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 421213
+      "count": 421594
     },
     {
       "label": "reconnaissance",
-      "count": 247306
+      "count": 250913
     },
     {
       "label": "vnc-scanning",
-      "count": 72485
+      "count": 73753
     },
     {
       "label": "ssh-brute-force",
-      "count": 35361
+      "count": 35514
     },
     {
       "label": "database-scanning",
-      "count": 4116
+      "count": 4167
     },
     {
       "label": "adb-exploitation",
-      "count": 775
+      "count": 787
     }
   ]
 }
