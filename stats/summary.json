@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T10:00:14.833230Z",
-  "total_indicators": 793483,
-  "total_feeds": 309,
+  "generated_at": "2026-10-14T10:00:13.684218Z",
+  "total_indicators": 796553,
+  "total_feeds": 310,
   "confidence": {
-    "average": 84.64,
+    "average": 84.62,
     "min": 75,
     "max": 100
   },
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 422583
+      "count": 422812
     },
     {
       "port": 22,
-      "count": 36004
+      "count": 36181
     },
     {
       "port": 5351,
-      "count": 29894
+      "count": 29895
     },
     {
       "port": 80,
-      "count": 25495
+      "count": 25676
     },
     {
       "port": 1900,
@@ -34,75 +34,75 @@
     },
     {
       "port": 5900,
-      "count": 18604
+      "count": 18631
     },
     {
       "port": 8443,
-      "count": 18004
+      "count": 18013
     },
     {
       "port": 3478,
-      "count": 16999
+      "count": 17010
     },
     {
       "port": 53,
-      "count": 11908
+      "count": 11912
     }
   ],
   "top_countries": [
     {
       "country": "BR",
-      "count": 253245
+      "count": 253295
     },
     {
       "country": "US",
-      "count": 231403
+      "count": 232220
     },
     {
       "country": "GB",
-      "count": 45102
+      "count": 45283
     },
     {
       "country": "DE",
-      "count": 35339
+      "count": 35504
     },
     {
       "country": "FR",
-      "count": 24324
+      "count": 24417
     },
     {
       "country": "NL",
-      "count": 20670
+      "count": 20784
     },
     {
       "country": "CN",
-      "count": 15906
+      "count": 15927
     },
     {
       "country": "CA",
-      "count": 11053
+      "count": 11111
     },
     {
       "country": "RU",
-      "count": 10967
+      "count": 10982
     },
     {
       "country": "SG",
-      "count": 9337
+      "count": 9362
     }
   ],
   "top_asns": [
     {
       "asn": "3xK Tech GmbH",
-      "count": 65743
+      "count": 65745
     },
     {
       "asn": "PureVoltage Hosting Inc.",
-      "count": 15019
+      "count": 15020
     },
     {
       "asn": "Fast Servers (Pty) Ltd",
-      "count": 10525
+      "count": 10527
     },
     {
       "asn": "Limestone Networks, Inc.",
@@ -110,7 +110,7 @@
     },
     {
       "asn": "Alex Largman",
-      "count": 7382
+      "count": 7384
     },
     {
       "asn": "Cyberzone S.A.",
@@ -126,37 +126,37 @@
     },
     {
       "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 4150
+      "count": 4191
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 3649
+      "count": 3680
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 422583
+      "count": 422812
     },
     {
       "label": "reconnaissance",
-      "count": 260926
+      "count": 262316
     },
     {
       "label": "vnc-scanning",
-      "count": 77714
+      "count": 78978
     },
     {
       "label": "ssh-brute-force",
-      "count": 36004
+      "count": 36181
     },
     {
       "label": "database-scanning",
-      "count": 4308
+      "count": 4317
     },
     {
       "label": "adb-exploitation",
-      "count": 814
+      "count": 819
     }
   ]
 }
