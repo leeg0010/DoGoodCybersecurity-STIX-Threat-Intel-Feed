@@ -1,94 +1,94 @@
 {
-  "generated_at": "2026-11-02T10:00:18.467638Z",
-  "total_indicators": 904532,
-  "total_feeds": 329,
+  "generated_at": "2026-11-03T10:00:16.369413Z",
+  "total_indicators": 910269,
+  "total_feeds": 330,
   "confidence": {
-    "average": 84.01,
+    "average": 83.98,
     "min": 75,
     "max": 100
   },
   "top_targeted_ports": [
     {
       "port": 443,
-      "count": 435754
+      "count": 436863
     },
     {
       "port": 22,
-      "count": 40792
-    },
-    {
-      "port": 5351,
-      "count": 30030
+      "count": 41020
     },
     {
       "port": 80,
-      "count": 29998
+      "count": 30151
+    },
+    {
+      "port": 5351,
+      "count": 30040
     },
     {
       "port": 1900,
-      "count": 22409
+      "count": 22413
     },
     {
       "port": 7788,
-      "count": 21835
+      "count": 21836
     },
     {
       "port": 5900,
-      "count": 19329
+      "count": 19347
     },
     {
       "port": 8443,
-      "count": 18883
+      "count": 18939
     },
     {
       "port": 3478,
-      "count": 17189
+      "count": 17199
     },
     {
       "port": 8080,
-      "count": 12943
+      "count": 13026
     }
   ],
   "top_countries": [
     {
       "country": "US",
-      "count": 274243
+      "count": 276508
     },
     {
       "country": "BR",
-      "count": 254980
+      "count": 255016
     },
     {
       "country": "GB",
-      "count": 58120
+      "count": 58748
     },
     {
       "country": "DE",
-      "count": 43184
+      "count": 43641
     },
     {
       "country": "FR",
-      "count": 26455
+      "count": 26580
     },
     {
       "country": "NL",
-      "count": 25643
+      "count": 25883
     },
     {
       "country": "CN",
-      "count": 17443
+      "count": 17520
     },
     {
       "country": "CA",
-      "count": 12562
+      "count": 12645
     },
     {
       "country": "RU",
-      "count": 11329
+      "count": 11350
     },
     {
       "country": "SG",
-      "count": 10660
+      "count": 10726
     }
   ],
   "top_asns": [
@@ -122,41 +122,41 @@
     },
     {
       "asn": "Datacamp Limited",
-      "count": 5931
+      "count": 5932
     },
     {
       "asn": "Tencent Building, Kejizhongyi Avenue",
-      "count": 5207
+      "count": 5227
     },
     {
       "asn": "Amazon.com, Inc.",
-      "count": 4942
+      "count": 4967
     }
   ],
   "top_activity_types": [
     {
       "label": "https-scanning",
-      "count": 435754
+      "count": 436863
     },
     {
       "label": "reconnaissance",
-      "count": 334055
+      "count": 337772
     },
     {
       "label": "vnc-scanning",
-      "count": 96929
+      "count": 97591
     },
     {
       "label": "ssh-brute-force",
-      "count": 40792
+      "count": 41020
     },
     {
       "label": "database-scanning",
-      "count": 5311
+      "count": 5360
     },
     {
       "label": "adb-exploitation",
-      "count": 1008
+      "count": 1026
     }
   ]
 }
